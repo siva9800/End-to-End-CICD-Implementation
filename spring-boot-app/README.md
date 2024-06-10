@@ -3,7 +3,7 @@
 This is a simple Sprint Boot based Java application that can be built using Maven. Sprint Boot dependencies are handled using the pom.xml 
 at the root directory of the repository.
 
-This is a MVC architecture based application where controller returns a page with title and message attributes to the view.
+This is a MVC architecture based application where the controller returns a page with title and message attributes to the view.
 
 ## Execute the application locally and access it using your browser
 
@@ -39,7 +39,7 @@ docker build -t ultimate-cicd-pipeline:v1 .
 docker run -d -p 8010:8080 -t ultimate-cicd-pipeline:v1
 ```
 
-Hurray !! Access the application on `http://<ip-address>:8010`
+
 
 
 ## Next Steps
